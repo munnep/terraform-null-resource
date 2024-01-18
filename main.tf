@@ -13,3 +13,23 @@ type = map(string)
   }
 description = "This is just to see if we have a description"
 }
+
+variable "resource_groups" {
+    type = map(object({                     # map to create
+       resource_group_name = string         # resource
+        location = string                   # location
+        tags = map(string)                  # tags
+    }))
+    description = "This is just to see if we have a description"
+}
+
+
+variable "resource_groups2" {
+    type = map(object({                     # map to create
+       resource_group_name = string         # resource
+        location = string                   # location
+        tags = map(string)                  # tags
+    }))
+    description = "This is just to see if we have a description"
+    default = {}
+}
