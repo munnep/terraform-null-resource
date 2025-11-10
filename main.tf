@@ -12,3 +12,7 @@ resource "null_resource" "test5" {}
 resource "null_resource" "test6" {}
 
 resource "null_resource" "test7" {}
+
+output "test_output" {
+value = "test output"
+}
