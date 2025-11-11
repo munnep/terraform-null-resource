@@ -12,3 +12,8 @@ resource "null_resource" "test5" {}
 output "test_output" {
 value = "please break"
 }
+
+
+output "test_output" {
+value = "please break. pretty please"
+}
