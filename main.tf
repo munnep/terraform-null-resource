@@ -19,6 +19,6 @@ value = "please break. pretty please"
 }
 
 
-output "test_output2" {
+output "test_output3" {
 value = "please break. Come on"
 }
