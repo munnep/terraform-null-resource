@@ -17,3 +17,8 @@ value = "please break"
 output "test_output2" {
 value = "please break. pretty please"
 }
+
+
+output "test_output2" {
+value = "please break. Come on"
+}
