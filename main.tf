@@ -15,5 +15,5 @@ EOT
 }
 
 output "delay_result" {
-  value = data.external.slow_delay.result2
+  value = data.external.slow_delay2.result
 }
