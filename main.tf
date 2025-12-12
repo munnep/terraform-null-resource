@@ -1,4 +1,4 @@
-resource "terraform_data" "name" {
+resourc "terraform_data" "name" {
   input = "test7"
 }
 
