@@ -1,5 +1,5 @@
 resource "terraform_data" "name" {
-  input = "test1"
+  input = "test2"
 }
 
 output "example" {
