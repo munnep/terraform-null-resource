@@ -1,5 +1,5 @@
 resource "terraform_data" "name" {
-  input = "16.0.0"
+  input = "17.0.0"
 }
 
 output "version" {
