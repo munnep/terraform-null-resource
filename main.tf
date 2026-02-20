@@ -3,6 +3,6 @@ resource "terraform_data" "name" {
 }
 
 output "version" {
-  value = terraform_data.fail_on_apply_local_exec.input
+  value = terraform_data.name.input
 }
 
